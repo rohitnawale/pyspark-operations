@@ -26,7 +26,7 @@ Unlike most Python libraries, getting PySpark to start working properly is not a
 `pip3 install jupyter`
 
 #### Augment the PATH variable to launch Jupyter notebook
- For Windows  : `Search => Environment Variables => PATH => New => Save`
+ For Windows  : `Search => Environment Variables => PATH => New => Save` <br>
  For Linux/MAC: `export PATH=$PATH:~/.local/bin`
 
 #### Install JAVA if not already
