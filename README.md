@@ -10,6 +10,7 @@
 ## Notebooks
 * [Basic operations with pyspark using files](https://github.com/rohitnawale/pyspark-operations/blob/master/Manipulate_JSON.ipynb)
 * [Advanced operations with analytics](https://github.com/rohitnawale/pyspark-operations/blob/master/GroupBy_aggregrate.ipynb)
+* [Pyspark with MySql](https://github.com/rohitnawale/pyspark-operations/blob/master/Pyspark_with_mysql_salesdb.ipynb)
 
 ## Setting up Apache Spark with Python 3 and Jupyter notebook
 Unlike most Python libraries, getting PySpark to start working properly is not as straightforward as `pip install ...` and `import ...` Most of us with Python-based data science and Jupyter/IPython background take this workflow as granted for all popular Python packages. We tend to just head over to our CMD or BASH shell, type the pip install command, launch a Jupyter notebook and import the library to start practicing.
@@ -29,8 +30,7 @@ Unlike most Python libraries, getting PySpark to start working properly is not a
  For Windows  : `Search => Environment Variables => PATH => New => Save` <br>
  For Linux/MAC: `export PATH=$PATH:~/.local/bin`
 
-#### Install JAVA if not already
-  `https://www.java.com/en/download/help/download_options.xml`
+#### [Install JAVA if not already](https://www.java.com/en/download/help/download_options.xml)
 
 
 
@@ -38,7 +38,7 @@ Unlike most Python libraries, getting PySpark to start working properly is not a
 
 
 #### Set variables to launch PySpark with Python3 and enable it to be called from Jupyter notebook. Add all the following lines to the end of your .bashrc file
-  `https://medium.com/@naomi.fridman/install-pyspark-to-run-on-jupyter-notebook-on-windows-4ec2009de21f`
+  (https://medium.com/@naomi.fridman/install-pyspark-to-run-on-jupyter-notebook-on-windows-4ec2009de21f)
   
 ## Basics of `RDD`
 Resilient Distributed Datasets (RDD) is a fundamental data structure of Spark. It is an immutable distributed collection of objects. Each dataset in RDD is divided into logical partitions, which may be computed on different nodes of the cluster. RDDs can contain any type of Python, Java, or Scala objects, including user-defined classes.
